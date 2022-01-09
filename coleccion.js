@@ -1,0 +1,98 @@
+db.ventas.drop()
+db.ventas.insertMany([
+
+    { _id: 1,
+      articulo: "pantalon",
+      preciocoste: 5,
+      precioventa: 12,
+      fecha_venta: Date("19,02,2021"),
+      unidades: 50,
+      cliente: "decimas",
+       vendedor:"Rocio"},
+
+       { _id: 2,
+        articulo: "sudadera",
+        preciocoste: 55,
+        precioventa: 120,
+        fecha_venta: Date("12,12,2011"),
+        unidades: 20,
+        cliente: "Adidas",
+         vendedor:"Rocio"},
+
+         { _id:3,
+            articulo: "gorra",
+            preciocoste: 3,
+            precioventa: 9,
+            fecha_venta: Date("29,02,2019"),
+            unidades: 50,
+            cliente: "Nike",
+             vendedor:"Macarena"},
+
+             { _id: 4,
+                articulo: "botas",
+                preciocoste: 37,
+                precioventa: 150,
+                fecha_venta: Date("01,03,2020"),
+                unidades: 90,
+                cliente: "Primark",
+                 vendedor:"Luis"},
+
+                 { _id: 5,
+                    articulo: "guantes",
+                    preciocoste: 1,
+                    precioventa: 6,
+                    fecha_venta: Date("19,02,2019"),
+                    unidades: 60,
+                    cliente: "Decimas",
+                     vendedor:"Rocio"},
+
+             { _id: 6,
+               articulo: "sandalias",
+               preciocoste: 0.20,
+              precioventa: 12,
+              fecha_venta: Date("11,07,2020"),
+               unidades: 300,
+               cliente: "Primark",
+               vendedor:"Luis"},
+
+               { _id: 7,
+                articulo: "espinilleras",
+                preciocoste: 5,
+                precioventa: 15,
+                fecha_venta: Date("01,03,2018"),
+                unidades: 30,
+                cliente: "decimas",
+                 vendedor:"Luis"},
+
+                 { _id: 8,
+                    articulo: "auriculares",
+                    preciocoste: 10,
+                    precioventa: 22,
+                    fecha_venta: Date("10,01,2021"),
+                    unidades: 40,
+                    cliente: "Primark",
+                     vendedor:"Macarena"},
+            
+                   
+                  { _id: 9,
+                articulo: "casco",
+                preciocoste: 13,
+                precioventa: 29,
+                fecha_venta: Date("17,01,2017"),
+                unidades:100,
+                cliente: "Carrefour",
+                vendedor:"Rocio"},
+
+               { _id: 10,
+              articulo: "camisa",
+              preciocoste: 9,
+              precioventa: 17,
+              fecha_venta: Date("29,09,2021"),
+              unidades: 140,
+              cliente: "Decima",
+              vendedor:"Luis"},
+
+    
+       ])
+      
+      
